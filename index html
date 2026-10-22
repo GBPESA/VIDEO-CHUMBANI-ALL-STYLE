@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sw">
 <head>
@@ -91,7 +90,10 @@
 
 <footer>VIDEO CHUMBANI ALL STYLE</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
+  onerror="document.getElementById('authMsg').textContent='Imeshindwa kupakia Supabase. Angalia intaneti au jaribu tena.'"
+></script>
 <script>
 const SUPABASE_URL = "https://xjabdtnrawuzbtseuysp.supabase.co";
 const SUPABASE_KEY = "sb_publishable_GXNT7rJjh3Buj27kzPjkhw_IO3XYYSG";
